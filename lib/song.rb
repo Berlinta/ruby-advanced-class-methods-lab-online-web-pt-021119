@@ -52,9 +52,6 @@ class Song
     song.name = split_filename[1]
     song
   end
-  
-  
-  end
-  
+
   
 end
