@@ -52,6 +52,8 @@ class Song
     song.name = split_filename[1]
     song
   end
+  
+  def self.create_from_file_name
 
   
 end
