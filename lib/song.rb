@@ -42,7 +42,7 @@ class Song
   end
   
   def self.alphabetical
-    @@all.each.sort
+    @@all.each.sort { |song| 
   end
   
   
