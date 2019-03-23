@@ -58,6 +58,7 @@ class Song
     song = Song.new
     song.artist_name = split_filename [0] 
     song.name = split_filename[1]
+    song.save
     song
   end
   
